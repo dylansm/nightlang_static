@@ -1,0 +1,12 @@
+body div.c {
+  width: 585px;
+}
+div.c p {
+  font-size: 2.1em;
+}
+div.c.sans {
+  width: 591px;
+}
+div.c.sans p {
+  font-size: 2.1em;
+}

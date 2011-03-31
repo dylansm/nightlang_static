@@ -1,0 +1,43 @@
+format: snippet
+
+
+%ni%Have you heard of one Humpty Dumpty  
+How he fell with a roll and a rumble  
+And curled up like Lord Olofa Crumple  
+By the butt of the Magazine Wall,
+
+%chorus%(Chorus) Of the Magazine Wall,  
+Hump, helmet and all?
+
+%ni stanza%He was one time our King of the Castle  
+Now he’s kicked about like a rotten old parsnip.  
+And from Green street he’ll be sent by order of His Worship  
+To the penal jail of Mountjoy
+
+%chorus%(Chorus) To the jail of Mountjoy!  
+Jail him and joy.
+
+%ni stanza%He was fafafather of all schemes for to bother us  
+Slow coaches and immaculate contraceptives for the populace,  
+Mare’s milk for the sick, seven dry Sundays a week,  
+Openair love and religion’s reform,
+
+%chorus%(Chorus) And religious reform,  
+Hideous in form.
+
+%ni stanza%Arrah, why, says you, couldn’t he manage it?  
+I’ll go bail, my fine dairyman darling,  
+Like the bumping bull of the Cassidys  
+All your butter is in your horns.
+
+%chorus%(Chorus) His butter is in his horns.  
+Butter his horns!
+
+%ni stanza%(Repeat) Hurrah there, Hosty, frosty Hosty, change that shirt on ye,  
+Rhyme the rann, the king of all ranns!
+
+%c%*Balbaccio, balbuccio!*
+
+%ni stanza%We had chaw chaw chops, chairs, chewing gum, the chickenpox and china chambers  
+Universally provided by this soffsoaping salesman.%j%
+

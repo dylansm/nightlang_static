@@ -1,0 +1,21 @@
+div.c {
+  width: 51.5em;
+}
+div.c.sans {
+  width: 51.9em;
+}
+div.c p {
+  font-size: 1.8em;
+}
+div.c.sans p {
+  font-size: 1.8em;
+}
+div.c span.no-space {
+  letter-spacing: 0.05em;
+}
+div.c.sans span.no-space {
+  letter-spacing: 0.06em;
+}
+div.c.sans p.dialogue.mutt {
+  text-indent: -4.3em;
+}

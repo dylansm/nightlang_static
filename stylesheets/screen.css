@@ -1,0 +1,303 @@
+/*@font-face { font-family: LibertineFW; src: url("/fonts/LinLibertineFW.otf") format("opentype"); font-weight: normal; }*/
+/*@font-face { font-family: LibertineFWI; src: url("/fonts/LinLibertineFWI.otf") format("opentype"); }*/
+@font-face { font-family: FWSpecial; src: url("/fonts/FWSpecial-Regular.otf") format("opentype"); font-weight: normal; }
+/*@font-face { font-family: LibertineFWC; src: url("/fonts/LinLibertineFWC.otf") format("opentype"); font-weight: normal; }*/
+@font-face {
+  font-family: 'LibertineFWC';
+  /*src: url('linlibertinefwc-webfont.eot');*/
+  src: local('☺'), url('/fonts/LinLibertineFWC.woff') format('woff'), url('/fonts/LinLibertineFWC.otf') format('opentype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 62.5%;
+  text-align: center;
+}
+div.c {
+  position: relative;
+  width: 47.2em;
+  text-align: left;
+  min-height: 70em;
+  margin: 0 auto;
+  padding-bottom: 20em;
+}
+html.wf-active div.c {
+  width: 46.8em;
+}
+div.c.sans {
+  /*width: 44.3em;*/ /* 1.5em */
+  /*width: 43.8em;*/ /* 1.4em */
+  width: 45.4em; /* 1.6em */
+}
+div.c span.no-space {
+  letter-spacing: 0.04em;
+}
+p {
+  font-family: "minion-pro-1","minion-pro-2", Georgia;
+  font-size: 1.5em;
+  line-height: 1.6em;
+}
+html.wf-active p {
+  font-size: 1.7em;
+}
+
+div.c.sans p {
+  font-family: Helvetica, Calibri, Arial;
+  /*font-size: 1.4em;*/
+  font-size: 1.5em;
+  line-height: 1.7em;
+}
+
+.cap {
+  font-family: LibertineFWC;
+  font-size: 1.1em;
+}
+div.c.sans .cap {
+  font: .95em Helvetica, Calibri, Arial;
+  text-transform: uppercase;
+}
+
+p.c {
+  text-align: center;
+  text-indent: 0 !important;
+}
+p.part {
+  text-align: center;
+  text-indent: 0;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 5em auto 0 auto;
+}
+div.c.sans p.part {
+  font-size: 2.4em;
+}
+em {
+  font-family: "minion-pro-1","minion-pro-2", Georgia;
+  font-style: italic;
+  font-weight: normal;
+}
+div.content p:first-child {
+  padding-top: 4em;
+}
+p, p.episode, p.episode:first-child {
+  text-indent: 1.5em;
+}
+
+p:first-child.episode { padding-top: 19.2em !important; }
+
+span.em {
+  font-family: FWSpecial;
+  margin: 0 .2em;
+}
+/*span span.em:first-child {
+  margin: 0 .2em 0 0;
+}*/
+/*page 16*/
+p.dialogue {
+  text-indent: -3.85em;
+  margin-left: 6em;
+}
+div.c.sans p.dialogue {
+  text-indent: -4em;
+}
+p.dialogue.mutt {
+  text-indent: -4.25em;
+}
+div.c.sans p.dialogue.mutt {
+  text-indent: -4.25em;
+}
+p.dialogue.continued {
+  text-indent: 0em !important;
+}
+
+/* page 94 */
+span.c {
+  display: block;
+  width: 14em;
+  margin: 0 auto;
+}
+span.c p:first-child {
+  padding-top: 0;
+}
+span.c p {
+  text-indent: 0;
+}
+
+/* page 44 */
+p.brace {
+  width: 10em;
+  text-indent: 0;
+  margin: 0 auto 0.8em auto;
+}
+
+p.brace span {
+  float: left;
+  height: 0.6em;
+  font-size: 2.75em;
+  margin: 0.19em 0.15em 0 0;
+}
+
+p.brace + p {
+  letter-spacing: 0.15em;
+}
+
+p.chorus {
+  margin-left: 6em;
+  text-indent: -3.9em;
+}
+
+p.ni, p.ni.indent {
+  text-indent: 0;
+}
+
+p.stanza {
+  margin-top: 1em;
+}
+p.stanza + p.c {
+  margin-bottom: 1em;
+}
+p.stanza:first-child {
+  margin-top: 0;
+}
+
+p.right {
+  text-align: right;
+}
+
+p.indent {
+  margin-left: 1em;
+}
+
+p.neg-i {
+  text-indent: -2em;
+  margin-left: 2em;
+}
+
+.indent-3 {
+  margin-left: 3em;
+}
+
+.indent-4 {
+  margin-left: 4em;
+}
+
+.indent-8 {
+  margin-left: 8em;
+}
+
+.nav a {
+  position: absolute;
+  height: 100%;
+}
+a.prev {
+  text-indent: -9999px;
+  left: 0;
+}
+
+a.next {
+  text-indent: -9999px;
+  right: 0;
+}
+
+p.page-num {
+  position: absolute;
+  bottom: 2em;
+  text-indent: 0;
+  width: 100%;
+  height: 3em;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Dynamic elements */
+
+span.justifier {
+  display: inline-block;
+  height: 1em;
+}
+
+.util {
+  position: fixed;
+  top: 10px;
+  left: -196px;
+  width: 186px;
+  z-index: 100;
+  background: #D6D3D0;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.3, rgb(214,211,208)),
+      color-stop(1, rgb(240,236,232))
+  );
+  background-image: -moz-linear-gradient(
+      center bottom,
+      rgb(214,211,208) 30%,
+      rgb(240,236,232) 100%
+  );
+  opacity: 0.75;
+  box-shadow: 2px 2px 8px -5px #4A432F;
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border: 1px solid #C8C1B4;
+  padding-right: 34px;
+  padding-left: 8px;
+}
+.util.open {
+  left: -9px;
+}
+.util p {
+  font: 2.4em Arial, sans-serif !important;
+  text-indent: 0;
+  height: 1.3em;
+  color: #FFF;
+  background: #CFCCC3;
+  margin: .2em 0 .2em .2em;
+  border-top: 1px solid #B5AE9D;
+  border-right: 1px solid rgba(200, 193, 180, .7);
+  border-bottom: 1px solid rgba(245, 245, 245, 1.0);
+  border-left: 1px solid rgba(200, 193, 180, .7);
+  padding: 0 !important;
+}
+.util p span {
+  position: relative;
+  cursor: default;
+  float: left;
+  text-shadow: 0 -1px 0 #A09C91;
+  width: .6em;
+  height: 100%;
+  line-height: 1.3em;
+  padding: 0 .5em;
+}
+.util p span m {
+  position: absolute;
+  left: 24%;
+  height: 100%;
+}
+.util p span:nth-child(1) m:nth-child(1) { top: -5px; }
+.util p span:nth-child(1) m:nth-child(2) { top: 2px; }
+.util p span:nth-child(2) m:nth-child(1) { top: -8px; }
+.util p span:nth-child(2) m:nth-child(2) { top: 5px; }
+.util p span:nth-child(3) { top: 1px; }
+.util p span:nth-child(4) { top: -2px; width: .3em; }
+.util p span:nth-child(5) { top: 0px; width: .3em; }
+
+.util p span.font-type { font: 1.1em Georgia, serif; width: .47em; }
+.util p span.sans { font-family: Arial, sans-serif; }
+
+.util .gear {
+  background: url(../images/ui/gear.png) 0 8px no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 45px;
+}

@@ -1,0 +1,12 @@
+To replace first line paragraph with no-indent paragraph:
+
+Find:
+<%page-(\d+)%>\n\n([^\t{])
+<%page-(\d+)%>\n\n([^\n])
+
+Replace:
+<%page-$1%>\n\n%ni%$2
+
+clear test spans:
+<span class="justifier" style="width: 0\.\d+em"></span>
+[nothing]

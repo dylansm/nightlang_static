@@ -1,0 +1,12 @@
+div.c {
+  width: 46.7em;
+}
+div.c.sans {
+  width: 44em;
+}
+div.c span.no-space {
+  letter-spacing: 0.03em;
+}
+div.c.sans span.no-space {
+  letter-spacing: 0.065em;
+}

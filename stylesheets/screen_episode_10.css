@@ -1,0 +1,431 @@
+div.c.episode-10 {
+  width: 32.5em;
+  padding-bottom: 39em;
+}
+div.c.sans.episode-10 {
+  width: 31.7em;
+  padding-bottom: 39em;
+}
+div.c div.wide {
+  margin-left: -7.1em;
+  margin-right: -7.1em;
+}
+
+div.c.sans div.wide {
+  margin-left: -7.8em;
+  margin-right: -7.8em;
+}
+
+a.footnote, a.footnote:visited {
+  color: #000;
+  text-decoration: none;
+  font-size: 0.8em;
+  vertical-align: super;
+  line-height: 0;
+}
+a.reversefootnote {
+  color: #000;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+div.footnotes {
+/*  font: .9em "adobe-text-pro-1", "adobe-text-pro-2", Georgia, serif;
+  position: absolute;
+  left: 50%;
+  width: 150%;
+  margin: 2.2em auto 0 -75%;*/
+  font: .9em Georgia;
+  position: absolute;
+  left: 50%;
+  width: 150%;
+  margin: 2.2em auto 0 -75%;
+}
+
+
+div.c.sans div.footnotes {
+  font-family: Helvetica, Calibri, Arial;
+  position: absolute;
+  left: 50%;
+  width: 160%;
+  margin: 2.2em auto 0 -80%;
+}
+
+div.footnotes hr {
+  display: none;
+}
+
+div.footnotes li {
+  font-size: 1.4em;
+  list-style-position: inside;
+}
+div.footnotes li p, div.footnotes li p:first-child {
+  font-size: 1.1em;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 0;
+}
+div.l, div.r {
+  position: absolute;
+  top: 0;
+  width: 12.8em;
+  z-index: 10;
+}
+div.l p, div.r p {
+  position: absolute;
+  text-indent: 0;
+}
+div.l {
+  left: -15em;
+}
+div.l p:first-child, div.r p:first-child {
+  padding-top: 0;
+}
+
+div.l p {
+  width: 9.2em;
+/*  font-family: LibertineFWI;*/
+  font-style: italic;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  padding: 0.5em 0 0.65em 0 !important;
+}
+
+div.c.sans div.l p {
+  width: 9.2em;
+  font-family: Helvetica, Calibri, Arial;
+  font-size: 1.3em;
+  font-style: italic;
+  line-height: 1.3em;
+  padding: 0.5em 0 0.65em 0 !important;
+}
+div.r {
+  right: -15em;
+}
+.top-5 {
+  margin-top: 25.75em;
+}
+div.r p {
+  font-family: LibertineFWC;
+  font-size: 1.6em;
+  line-height: 1.2em;
+  width: auto;
+  padding: 0.5em 0 0.5em 0 !important;
+}
+
+div.c.sans div.r p {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+span.size-1 {
+  font-size: 0.8em;
+}
+span.size-2 {
+  font-size: 1.5em;
+}
+span.size-2b {
+  font-size: 1.1em;
+}
+span.size-3 {
+  font-size: 1.5em;
+  line-height: 0em;
+}
+span.size-3b {
+  font-size: 2.2em;
+  line-height: 0em;
+}
+span.size-4 {
+  font-size: 2em;
+  line-height: 0em;
+}
+
+div.c.sans span.size-1, div.c.sans span.size-2, div.c.sans span.size-2b, div.c.sans span.size-3,
+div.c.sans span.size-3b, div.c.sans span.size-4 {
+  font-family: Helvetica, Calibri, Arial;
+}
+div.c.sans span.size-1 {
+  font-size: 0.8em;
+}
+div.c.sans span.size-2 {
+  font-size: 1.5em;
+}
+div.c.sans span.size-2b {
+  font-size: 1.1em;
+}
+div.c.sans span.size-3 {
+  font-size: 1.5em;
+  line-height: 0em;
+}
+div.c.sans span.size-3b {
+  font-size: 2.2em;
+  line-height: 0em;
+}
+div.c.sans span.size-4 {
+  font-size: 2em;
+  line-height: 0em;
+}
+
+div.episode-10.page-260 div.l p:nth-child(1) { top: 25.9em; }
+div.episode-10.page-260 div.l p:nth-child(2) { top: 34.45em; }
+div.episode-10.page-260 div.l p:nth-child(3) { top: 39.6em; }
+div.episode-10.page-260 div.r p:nth-child(1) { top: 17em; }
+div.episode-10.page-260 div.r p:nth-child(2) { top: 21.25em; }
+div.episode-10.page-260 div.r p:nth-child(3) { top: 26.9em; }
+
+div.episode-10.page-261 div.l p:nth-child(1) { top: 20.77em; }
+div.episode-10.page-261 div.l p:nth-child(2) { top: 27.6em; }
+div.episode-10.page-261 div.l p:nth-child(3) { top: 31em; }
+div.episode-10.page-261 div.r p:nth-child(1) { top: 31.1em; }
+
+div.episode-10.page-262 div.l p:nth-child(1) { top: 17.3em; }
+div.episode-10.page-262 div.l p:nth-child(2) { top: 24.2em; }
+div.episode-10.page-262 div.l p:nth-child(3) { top: 32.75em; }
+div.episode-10.page-262 div.l p:nth-child(4) { top: 46.45em; }
+div.episode-10.page-262 div.r p:nth-child(1) { top: 2.87em; }
+div.episode-10.page-262 div.r p:nth-child(2) { top: 26.9em; }
+
+div.episode-10.page-263 div.l p:nth-child(1) { top: 12.15em; }
+div.episode-10.page-263 div.l p:nth-child(2) { top: 25.9em; }
+div.episode-10.page-263 div.l p:nth-child(3) { top: 39.6em; }
+div.episode-10.page-263 div.l p:nth-child(4) { top: 49.9em; }
+
+div.episode-10.page-264 div.l p:nth-child(1) { top: 20.75em; }
+div.episode-10.page-264 div.l p:nth-child(2) { top: 36.15em; }
+div.episode-10.page-264 div.r p:nth-child(1) { top: 0.1em; }
+div.episode-10.page-264 div.r p:nth-child(2) { top: 19.8em; }
+
+div.episode-10.page-265 div.l p:nth-child(1) { top: 24.2em; }
+div.episode-10.page-265 div.l p:nth-child(2) { top: 46.45em; }
+
+div.episode-10.page-266 div.l p:nth-child(1) { top: 32.75em; }
+div.episode-10.page-266 div.r p:nth-child(1) { top: 26.9em; }
+
+div.episode-10.page-267 div.l p:nth-child(1) { top: 15.6em; }
+div.episode-10.page-267 div.l p:nth-child(2) { top: 39.6em; }
+div.episode-10.page-267 div.l p:nth-child(3) { top: 46.45em; }
+div.episode-10.page-267 div.r p:nth-child(1) { top: 17em; }
+
+div.episode-10.page-268 div.l p:nth-child(1) { top: 3.6em; }
+div.episode-10.page-268 div.l p:nth-child(2) { top: 17.3em; }
+div.episode-10.page-268 div.l p:nth-child(3) { top: 29.3em; }
+div.episode-10.page-268 div.l p:nth-child(4) { top: 44.75em; }
+div.episode-10.page-268 div.r p:nth-child(1) { top: 9.95em; }
+
+div.episode-10.page-269 div.l p:nth-child(1) { top: 34.45em; }
+div.episode-10.page-269 div.l p:nth-child(2) { top: 39.6em; }
+
+div.episode-10.page-270 div.l p:nth-child(1) { top: 5.35em; }
+div.episode-10.page-270 div.l p:nth-child(2) { top: 43em; }
+div.episode-10.page-270 div.l p:nth-child(3) { top: 46.45em; }
+div.episode-10.page-270 div.l p:nth-child(4) { top: 53.3em; }
+div.episode-10.page-270 div.r p:nth-child(1) { top: 40.95em; }
+
+div.episode-10.page-271 div.l p:nth-child(1) { top: 0.2em; }
+div.episode-10.page-271 div.l p:nth-child(2) { top: 5.3em; }
+div.episode-10.page-271 div.l p:nth-child(3) { top: 36.2em; }
+div.episode-10.page-271 div.l p:nth-child(4) { top: 46.45em; }
+div.episode-10.page-271 div.r p:nth-child(1) { top: 0.1em; }
+
+div.episode-10.page-272 div.l p:nth-child(1) { top: 12.2em; }
+div.episode-10.page-272 div.l p:nth-child(2) { top: 20.75em; }
+div.episode-10.page-272 div.l p:nth-child(3) { top: 34.45em; }
+div.episode-10.page-272 div.l p:nth-child(4) { top: 48.15em; }
+div.episode-10.page-272 div.r p:nth-child(1) { top: 11.4em; }
+
+div.episode-10.page-273 div.l p:nth-child(1) { top: 0.2em; }
+div.episode-10.page-273 div.l p:nth-child(2) { top: 5.3em; }
+div.episode-10.page-273 div.l p:nth-child(3) { top: 12.2em; }
+div.episode-10.page-273 div.l p:nth-child(4) { top: 27.6em; }
+
+div.episode-10.page-274 div.l p:nth-child(1) { top: 1.9em; }
+div.episode-10.page-274 div.l p:nth-child(2) { top: 7.0em; }
+div.episode-10.page-274 div.l p:nth-child(3) { top: 24.2em; }
+div.episode-10.page-274 div.l p:nth-child(4) { top: 36.2em; }
+
+div.episode-10.page-275 div.l p:nth-child(1) { top: 0.2em; }
+div.episode-10.page-275 div.l p:nth-child(2) { top: 8.75em; }
+div.episode-10.page-275 div.l p:nth-child(3) { top: 22.45em; }
+div.episode-10.page-275 div.l p:nth-child(4) { top: 41.35em; }
+div.episode-10.page-275 div.r p:nth-child(1) { top: 2.85em; }
+
+div.episode-10.page-276 div.l p:nth-child(1) { top: 3.6em; }
+div.episode-10.page-276 div.l p:nth-child(2) { top: 10.45em; }
+div.episode-10.page-276 div.l p:nth-child(3) { top: 24.2em; }
+div.episode-10.page-276 div.l p:nth-child(4) { top: 34.45em; }
+div.episode-10.page-276 div.l p:nth-child(5) { top: 41.35em; }
+div.episode-10.page-276 div.r p:nth-child(1) { top: 14.15em; }
+
+div.episode-10.page-277 div.l p:nth-child(1) { top: 3.6em; }
+div.episode-10.page-277 div.l p:nth-child(2) { top: 8.75em; }
+div.episode-10.page-277 div.l p:nth-child(3) { top: 13.9em; }
+div.episode-10.page-277 div.l p:nth-child(4) { top: 22.45em; }
+div.episode-10.page-277 div.l p:nth-child(5) { top: 25.9em; }
+div.episode-10.page-277 div.l p:nth-child(6) { top: 43.05em; }
+
+div.episode-10.page-278 div.l p:nth-child(1) { top: 5.3em; }
+div.episode-10.page-278 div.l p:nth-child(2) { top: 17.3em; }
+div.episode-10.page-278 div.l p:nth-child(3) { top: 27.6em; }
+div.episode-10.page-278 div.l p:nth-child(4) { top: 32.75em; }
+div.episode-10.page-278 div.r p:nth-child(1) { top: 8.5em; }
+div.episode-10.page-278 div.r p:nth-child(2) { top: 33.95em; }
+
+div.c.episode-10.page-279 { min-height: 82em; }
+
+div.episode-10.page-280 div.l p:nth-child(1) { top: 7em; }
+div.episode-10.page-280 div.l p:nth-child(2) { top: 20.75em; }
+div.episode-10.page-280 div.l p:nth-child(3) { top: 27.6em; }
+div.episode-10.page-280 div.l p:nth-child(4) { top: 41.3em; }
+
+div.episode-10.page-281 div.l p:nth-child(1) { top: 0.15em; }
+div.episode-10.page-281 div.l p:nth-child(2) { top: 7em; }
+div.episode-10.page-281 div.l p:nth-child(3) { top: 19em; }
+div.episode-10.page-281 div.l p:nth-child(4) { top: 29.3em; }
+div.episode-10.page-281 div.r p:nth-child(1) { top: 5.75em; }
+div.episode-10.page-281 div.r p:nth-child(2) { top: 19.8em; }
+div.episode-10.page-281 div.r p:nth-child(3) { top: 39.6em; }
+
+div.episode-10.page-282 div.l p:nth-child(1) { top: 1.9em; }
+div.episode-10.page-282 div.l p:nth-child(2) { top: 19em; }
+div.episode-10.page-282 div.l p:nth-child(3) { top: 34.45em; }
+div.episode-10.page-282 div.r p:nth-child(1) { top: 5.75em; }
+div.episode-10.page-282 div.r p:nth-child(2) { top: 19.8em; }
+
+div.episode-10.page-283 div.l p:nth-child(1) { top: 3.6em; }
+div.episode-10.page-283 div.l p:nth-child(2) { top: 31.05em; }
+
+div.episode-10.page-284 div.l p:nth-child(1) { top: 0.15em; }
+div.episode-10.page-284 div.l p:nth-child(2) { top: 17.38em; }
+div.episode-10.page-284 div.l p:nth-child(3) { top: 41.4em; }
+
+div.episode-10.page-285 div.l p:nth-child(1) { top: 12.15em; }
+div.episode-10.page-285 div.l p:nth-child(2) { top: 24.25em; }
+div.episode-10.page-285 div.l p:nth-child(3) { top: 36.25em; }
+
+div.episode-10.page-286 div.l p:nth-child(1) { top: 0.15em; }
+div.episode-10.page-286 div.l p:nth-child(2) { top: 7em; }
+div.episode-10.page-286 div.l p:nth-child(3) { top: 19em; }
+div.episode-10.page-286 div.l p:nth-child(4) { top: 29.3em; }
+div.episode-10.page-286 div.r p:nth-child(1) { top: 2.9em; }
+div.episode-10.page-286 div.r p:nth-child(2) { top: 25.5em; }
+div.episode-10.page-286 div.r p:nth-child(3) { top: 33.95em; }
+
+div.episode-10.page-287 div.l p:nth-child(1) { top: 10.45em; }
+div.c.page-287 div.wide p:first-child { padding-top: 0; }
+
+div.episode-10.page-293 div.l p:nth-child(1) { top: 34.45em; }
+div.episode-10.page-293 div.l p:nth-child(2) { top: 44.75em; }
+div.episode-10.page-293 div.r p:nth-child(1) { top: 0.1em; }
+
+div.episode-10.page-294 div.l p:nth-child(1) { top: 12.2em; }
+div.episode-10.page-294 div.l p:nth-child(2) { top: 27.6em; }
+
+div.episode-10.page-295 div.l p:nth-child(1) { top: 3.6em; }
+div.episode-10.page-295 div.l p:nth-child(2) { top: 44.75em; }
+
+div.episode-10.page-296 div.l p:nth-child(1) { top: 12.2em; }
+
+div.episode-10.page-297 div.l p:nth-child(1) { top: 5.3em; }
+div.episode-10.page-297 div.l p:nth-child(2) { top: 22.45em; }
+
+div.episode-10.page-298 div.l p:nth-child(1) { top: 0.15em; }
+div.episode-10.page-298 div.l p:nth-child(2) { top: 20.95em; }
+div.episode-10.page-298 div.l p:nth-child(3) { top: 44.95em; }
+
+div.episode-10.page-299 div.l p:nth-child(1) { top: 13.86em; }
+div.episode-10.page-299 div.l p:nth-child(2) { top: 34.45em; }
+
+div.episode-10.page-300 div.l p:nth-child(1) { top: 13.86em; }
+div.episode-10.page-300 div.l p:nth-child(2) { top: 53.3em; }
+div.episode-10.page-300 div.r p:nth-child(1) { top: 11.4em; }
+
+div.episode-10.page-301 div.l p:nth-child(1) { top: 0.2em; }
+div.episode-10.page-301 div.l p:nth-child(2) { top: 17.3em; }
+div.episode-10.page-301 div.l p:nth-child(3) { top: 43em; }
+
+div.episode-10.page-302 div.l p:nth-child(1) { top: 8.75em; }
+div.episode-10.page-302 div.l p:nth-child(2) { top: 31.05em; }
+div.episode-10.page-302 div.r p:nth-child(1) { top: 14.2em; }
+div.episode-10.page-302 div.r p:nth-child(2) { top: 42.45em; }
+
+div.episode-10.page-303 div.l p:nth-child(1) { top: 7em; }
+div.episode-10.page-303 div.l p:nth-child(2) { top: 19em; }
+div.episode-10.page-303 div.l p:nth-child(3) { top: 34.45em; }
+div.episode-10.page-303 div.r p:nth-child(1) { top: 0.1em; }
+div.episode-10.page-303 div.r p:nth-child(2) { top: 19.85em; }
+
+div.episode-10.page-304 div.l p:nth-child(1) { top: 7em; }
+div.episode-10.page-304 div.l p:nth-child(2) { top: 43em; }
+div.episode-10.page-304 div.l p:nth-child(3) { top: 46.45em; }
+div.episode-10.page-304 div.r p:nth-child(1) { top: 2.9em; }
+
+div.episode-10.page-305 div.l p:nth-child(1) { top: 19.05em; }
+div.episode-10.page-305 div.l p:nth-child(2) { top: 37.9em; }
+div.episode-10.page-305 div.r p:nth-child(1) { top: 2.9em; }
+
+div.episode-10.page-306 div.l p:nth-child(1) { top: 7em; }
+div.episode-10.page-306 div.l p:nth-child(2) { top: 24.15em; }
+div.episode-10.page-306 div.l p:nth-child(3) { top: 25.9em; }
+div.episode-10.page-306 div.l p:nth-child(4) { top: 27.6em; }
+div.episode-10.page-306 div.l p:nth-child(5) { top: 29.3em; }
+div.episode-10.page-306 div.l p:nth-child(6) { top: 31em; }
+div.episode-10.page-306 div.l p:nth-child(7) { top: 32.75em; }
+div.episode-10.page-306 div.l p:nth-child(8) { top: 34.45em; }
+div.episode-10.page-306 div.l p:nth-child(9) { top: 36.2em; }
+div.episode-10.page-306 div.l p:nth-child(10) { top: 37.9em; }
+div.episode-10.page-306 div.l p:nth-child(11) { top: 39.6em; }
+div.episode-10.page-306 div.l p:nth-child(12) { top: 43em; }
+div.episode-10.page-306 div.l p:nth-child(13) { top: 44.75em; }
+div.episode-10.page-306 div.l p:nth-child(14) { top: 48.2em; }
+div.episode-10.page-306 div.l p:nth-child(15) { top: 49.9em; }
+div.episode-10.page-306 div.r p:nth-child(1) { top: 9.95em; }
+
+div.episode-10.page-307 div.l p:nth-child(1) { top: 0.15em; }
+div.episode-10.page-307 div.l p:nth-child(2) { top: 1.9em; }
+div.episode-10.page-307 div.l p:nth-child(3) { top: 3.6em; }
+div.episode-10.page-307 div.l p:nth-child(4) { top: 5.35em; }
+div.episode-10.page-307 div.l p:nth-child(5) { top: 7em; }
+div.episode-10.page-307 div.l p:nth-child(6) { top: 8.75em; }
+div.episode-10.page-307 div.l p:nth-child(7) { top: 10.45em; }
+div.episode-10.page-307 div.l p:nth-child(8) { top: 12.2em; }
+div.episode-10.page-307 div.l p:nth-child(9) { top: 13.9em; }
+div.episode-10.page-307 div.l p:nth-child(10) { top: 15.6em; }
+div.episode-10.page-307 div.l p:nth-child(11) { top: 17.35em; }
+div.episode-10.page-307 div.l p:nth-child(12) { top: 19em; }
+div.episode-10.page-307 div.l p:nth-child(13) { top: 20.75em; }
+div.episode-10.page-307 div.l p:nth-child(14) { top: 22.6em; }
+div.episode-10.page-307 div.l p:nth-child(15) { top: 24.15em; }
+div.episode-10.page-307 div.l p:nth-child(16) { top: 25.9em; }
+div.episode-10.page-307 div.l p:nth-child(17) { top: 27.6em; }
+div.episode-10.page-307 div.l p:nth-child(18) { top: 29.3em; }
+div.episode-10.page-307 div.l p:nth-child(19) { top: 31em; }
+div.episode-10.page-307 div.l p:nth-child(20) { top: 32.75em; }
+div.episode-10.page-307 div.l p:nth-child(21) { top: 34.45em; }
+div.episode-10.page-307 div.l p:nth-child(22) { top: 36.2em; }
+div.episode-10.page-307 div.l p:nth-child(23) { top: 37.9em; }
+div.episode-10.page-307 div.l p:nth-child(24) { top: 39.6em; }
+div.episode-10.page-307 div.l p:nth-child(25) { top: 41.3em; }
+div.episode-10.page-307 div.l p:nth-child(26) { top: 43em; }
+div.episode-10.page-307 div.l p:nth-child(27) { top: 44.75em; }
+div.episode-10.page-307 div.l p:nth-child(28) { top: 48.2em; }
+div.episode-10.page-307 div.l p:nth-child(29) { top: 49.9em; }
+
+div.episode-10.page-308 div.l p:nth-child(1) { top: 0.15em; }
+div.episode-10.page-308 div.l p:nth-child(2) { top: 7em; }
+div.episode-10.page-308 div.l p:nth-child(3) { top: 8.75em; }
+div.episode-10.page-308 div.l p:nth-child(4) { top: 10.45em; }
+div.episode-10.page-308 div.l p:nth-child(5) { top: 12.2em; }
+div.episode-10.page-308 div.l p:nth-child(6) { top: 13.9em; }
+div.episode-10.page-308 div.l p:nth-child(7) { top: 15.6em; }
+div.episode-10.page-308 div.l p:nth-child(8) { top: 17.35em; }
+div.episode-10.page-308 div.l p:nth-child(9) { top: 19em; }
+div.episode-10.page-308 div.l p:nth-child(10) { top: 20.75em; }
+div.episode-10.page-308 div.l p:nth-child(11) { top: 22.6em; }
+div.episode-10.page-308 div.l p:nth-child(12) { top: 24.15em; }
+div.episode-10.page-308 div.l p:nth-child(13) { top: 25.9em; }
+div.episode-10.page-308 div.l p:nth-child(14) { top: 27.6em; }
+div.episode-10.page-308 div.l p:nth-child(15) { top: 29.3em; }
+div.episode-10.page-308 div.l p:nth-child(16) { top: 31em; }
+div.episode-10.page-308 div.r p:nth-child(1) { top: 5.75em; }
+div.episode-10.page-308 div.r p:nth-child(2) { top: 19.8em; }
+div.episode-10.page-308 p:nth-child(12) { margin-bottom: 6em; }
