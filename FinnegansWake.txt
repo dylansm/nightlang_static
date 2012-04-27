@@ -1693,7 +1693,7 @@ Music cue.
 
 <%page-45%>
 
-%ni%Have you heard of one Humpty Dumpty  
+%ni stanza%Have you heard of one Humpty Dumpty  
 How he fell with a roll and a rumble  
 And curled up like Lord Olofa Crumple  
 By the butt of the Magazine Wall,

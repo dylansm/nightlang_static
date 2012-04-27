@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>javascripts/layer_engine.js</string>
+	<string>FinnegansWake.txt</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,6 +21,20 @@
 	<integer>198</integer>
 	<key>metaData</key>
 	<dict>
+		<key>FinnegansWake.txt</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>10537</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>10526</integer>
+		</dict>
 		<key>HTML/f_0014.html</key>
 		<dict>
 			<key>caret</key>
@@ -65,6 +79,20 @@
 				<integer>13</integer>
 			</dict>
 		</dict>
+		<key>HTML/f_0266.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>25</integer>
+				<key>line</key>
+				<integer>62</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>47</integer>
+		</dict>
 		<key>HTML/f_0286.html</key>
 		<dict>
 			<key>caret</key>
@@ -98,69 +126,40 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>20</integer>
 				<key>line</key>
-				<integer>161</integer>
+				<integer>131</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>144</integer>
+			<integer>120</integer>
 		</dict>
-		<key>javascripts/layer_engine.js</key>
+		<key>stylesheets/screen_episode_10.css</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>19</integer>
-				<key>line</key>
-				<integer>12</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>stylesheets/ipad.css</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>1</integer>
-				<key>line</key>
 				<integer>11</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>stylesheets/screen.css</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>13</integer>
 				<key>line</key>
-				<integer>32</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>14</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>stylesheets/screen.css</string>
 		<string>book_formatter.rb</string>
-		<string>stylesheets/ipad.css</string>
-		<string>javascripts/layer_engine.js</string>
-		<string>HTML/f_0174.html</string>
+		<string>stylesheets/screen_episode_10.css</string>
+		<string>HTML/f_0266.html</string>
+		<string>FinnegansWake.txt</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{328, 59}, {947, 766}}</string>
+	<string>{{325, 0}, {947, 746}}</string>
 </dict>
 </plist>

@@ -117,7 +117,7 @@ var Justifier = {
   // returns array of paragraphs to justify
   getJustifiableParagraphs: function() {
     // elements not justified:
-    var arr_no_just = [".util p", "p.page-num", "div.l p", "div.r p", "p.c", "p.stanza"];
+    var arr_no_just = [".util p", "p.page-num", "div.l p", "div.r p", "p.c", "p.stanza", "p.chorus"];
     var i = arr_no_just.length;
     var collection = $('div.c p');
     while (i--) {
@@ -507,3 +507,4 @@ NLBrowser.init();
 
 // trace
 function trace(a){if(typeof console!="undefined"){if(typeof console.debug!="undefined")console.debug(a);else typeof console.log!="undefined"&&console.log(a);}};
+window.debugMode = Boolean(document.location.hash.match(/debug/));

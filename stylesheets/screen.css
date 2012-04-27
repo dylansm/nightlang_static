@@ -1,13 +1,9 @@
-/*@font-face { font-family: LibertineFW; src: url("/fonts/LinLibertineFW.otf") format("opentype"); font-weight: normal; }*/
-/*@font-face { font-family: LibertineFWI; src: url("/fonts/LinLibertineFWI.otf") format("opentype"); }*/
 @font-face { font-family: FWSpecial; src: url("/fonts/FWSpecial-Regular.otf") format("opentype"); font-weight: normal; }
-/*@font-face { font-family: LibertineFWC; src: url("/fonts/LinLibertineFWC.otf") format("opentype"); font-weight: normal; }*/
 @font-face {
   font-family: 'LibertineFWC';
   /*src: url('linlibertinefwc-webfont.eot');*/
   src: local('☺'), url('/fonts/LinLibertineFWC.woff') format('woff'), url('/fonts/LinLibertineFWC.otf') format('opentype');
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -30,12 +26,10 @@ div.c {
   padding-bottom: 20em;
 }
 html.wf-active div.c {
-  width: 46.8em;
+  width: 48em;
 }
-div.c.sans {
-  /*width: 44.3em;*/ /* 1.5em */
-  /*width: 43.8em;*/ /* 1.4em */
-  width: 45.4em; /* 1.6em */
+html div.c.sans {
+  width: 45.3em; /* 1.6em */
 }
 div.c span.no-space {
   letter-spacing: 0.04em;
@@ -51,9 +45,8 @@ html.wf-active p {
 
 div.c.sans p {
   font-family: Helvetica, Calibri, Arial;
-  /*font-size: 1.4em;*/
   font-size: 1.5em;
-  line-height: 1.7em;
+  line-height: 1.8em;
 }
 
 .cap {
@@ -64,10 +57,13 @@ div.c.sans .cap {
   font: .95em Helvetica, Calibri, Arial;
   text-transform: uppercase;
 }
-
 p.c {
   text-align: center;
   text-indent: 0 !important;
+}
+p.c.flush-bottom {
+  margin-top: 1em;
+  margin-bottom: -1em;
 }
 p.part {
   text-align: center;
@@ -80,7 +76,6 @@ div.c.sans p.part {
   font-size: 2.4em;
 }
 em {
-  font-family: "minion-pro-1","minion-pro-2", Georgia;
   font-style: italic;
   font-weight: normal;
 }
@@ -93,9 +88,12 @@ p, p.episode, p.episode:first-child {
 
 p:first-child.episode { padding-top: 19.2em !important; }
 
+div.c.sans p, div.c.sans p.episode, div.c.sans p.episode:first-child {
+  text-indent: 1.2em;
+}
 span.em {
   font-family: FWSpecial;
-  margin: 0 .2em;
+  margin: 0 .3em;
 }
 /*span span.em:first-child {
   margin: 0 .2em 0 0;
@@ -107,12 +105,13 @@ p.dialogue {
 }
 div.c.sans p.dialogue {
   text-indent: -4em;
+  margin-left: 5.6em;
 }
 p.dialogue.mutt {
   text-indent: -4.25em;
 }
 div.c.sans p.dialogue.mutt {
-  text-indent: -4.25em;
+  text-indent: -4em;
 }
 p.dialogue.continued {
   text-indent: 0em !important;
@@ -155,7 +154,7 @@ p.chorus {
 }
 
 p.ni, p.ni.indent {
-  text-indent: 0;
+  text-indent: 0 !important;
 }
 
 p.stanza {
@@ -286,7 +285,7 @@ span.justifier {
 .util p span:nth-child(1) m:nth-child(2) { top: 2px; }
 .util p span:nth-child(2) m:nth-child(1) { top: -8px; }
 .util p span:nth-child(2) m:nth-child(2) { top: 5px; }
-.util p span:nth-child(3) { top: 1px; }
+.util p span:nth-child(3) { top: 1px; left: 3px }
 .util p span:nth-child(4) { top: -2px; width: .3em; }
 .util p span:nth-child(5) { top: 0px; width: .3em; }
 

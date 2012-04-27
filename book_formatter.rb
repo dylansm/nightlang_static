@@ -25,10 +25,11 @@ class BookFormatter
       padding.times { padding_string << "0" }
       file_name = "f_#{padding_string + page_num.to_s}"
       File.open("HTML/#{file_name}.txt", 'w') {|f|
-        f.write("format: snippet\n")
+        # f.write("format: snippet\n")
         f.write(page)
       }
-      mmdpage = `mmd2XHTML.pl HTML/#{file_name}.txt`
+      # mmdpage = `mmd2XHTML.pl HTML/#{file_name}.txt`
+      `multimarkdown HTML/#{file_name}.txt > HTML/#{file_name}.html`
       post_process_page("HTML/#{file_name}.html", page_num)
     }
   end
@@ -89,20 +90,18 @@ class BookFormatter
     text.gsub!(/%>%THaN/, '<span class="size-4 cap">T</span><span class="size-3 cap">H</span><span class="size-2">a</span><span class="size-1">N</span>')
     text.gsub!(/%&lt;%THaN/, '<span class="size-1">T</span><span class="size-2b cap">H</span><span class="size-3b">a</span><span class="size-4 cap">N</span>')
 
-
-    # swap out sigla used in specially prepared font (which substitutes yen, broken bar, section mark,
-    # and pilcro for rotated F and E characters, and sigla)
-
-    # %Fr% = F reversed                 = †
-    # %F180% = F rotated 180            = ‰     pg 121
-    # %Fr180% = F reversed, rotated 180 = ‡     pg 121
-    # %F90% = F rotated 90              = ˆ
-    # %F270% = F rotated 270            = Š
-    # %E90% = E rotated 90              = ¢
-    # %E180% = E rotated 180            = £
+    # wrap sigla in unique spans to be styled with CSS 3
+    # %Fr% = F reversed                 pg 266
+    # %Fr180% = F reversed, rotated 180 pg 121
+    # %F180% = F rotated 180            pg 121
+    # %F90% = F rotated 90              pg 18
+    # %F270% = F rotated 270            pg 18
+    # %E90% = E rotated 90              pg 119
+    # %E180% = E rotated 180            pg 36
     # %M% = sigla M
 
     # various crazy characters
+    # page 44   ballad of persse oreilly
     # page 124: čš
     # page 238: ſ
     # page 269: οὐκ ἔλαβον ...
@@ -114,13 +113,13 @@ class BookFormatter
     # doodles on page 299
 
 
-    text.gsub!(/%Fr%/, '†')
-    text.gsub!(/%Fr180%/, '‡')
-    text.gsub!(/%F90%/, 'ˆ')
-    text.gsub!(/%F180%/, '‰')
-    text.gsub!(/%F270%/, 'Š')
-    text.gsub!(/%E90%/, '¢')
-    text.gsub!(/%E180%/, '£')
+    text.gsub!(/%Fr%/, '<span class="rev">F</span>')
+    text.gsub!(/%Fr180%/, '<span class="rev-r-180">F</span>')
+    text.gsub!(/%F90%/, '<span class="r-90">F</span>')
+    text.gsub!(/%F180%/, '<span class="r-180">F</span>')
+    text.gsub!(/%F270%/, '<span class="r-270">F</span>')
+    text.gsub!(/%E90%/, '<span class="r-90">E</span>')
+    text.gsub!(/%E180%/, '<span class="r-180">E</span>')
 
     # page 44 musical bracket
     text.gsub!(/<p>%\{%/, '<p class="brace"><span>{</span>')
@@ -129,6 +128,9 @@ class BookFormatter
 
     # page 175
     text.gsub!(/<p>%-i%/, '<p class="neg-i">')
+
+    # footnote problem remove []
+    text.gsub!(/>\[([1-9]+)\]</, '>\1<')
 
     # page 260
     text.gsub!(/<p>%L%/, '<div class="l"><p>')

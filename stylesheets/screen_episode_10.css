@@ -1,4 +1,4 @@
-div.c.episode-10 {
+.wf-active div.c.episode-10 {
   width: 32.5em;
   padding-bottom: 39em;
 }
@@ -19,7 +19,7 @@ div.c.sans div.wide {
 a.footnote, a.footnote:visited {
   color: #000;
   text-decoration: none;
-  font-size: 0.8em;
+  font-size: 0.7em;
   vertical-align: super;
   line-height: 0;
 }
@@ -164,6 +164,13 @@ div.c.sans span.size-3b {
 div.c.sans span.size-4 {
   font-size: 2em;
   line-height: 0em;
+}
+
+span.rev {
+  display: inline-block;
+  -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 div.episode-10.page-260 div.l p:nth-child(1) { top: 25.9em; }
